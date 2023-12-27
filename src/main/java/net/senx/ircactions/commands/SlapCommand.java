@@ -22,6 +22,32 @@ public final class SlapCommand
         SlapResponses.add("<name> was slapped like a muppet!");
         SlapResponses.add("<name> was slapped into next week!");
         SlapResponses.add("<name> got slapped so hard, his mommas cheeks hurt!");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
+        SlapResponses.add("");
     }
 
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher)
