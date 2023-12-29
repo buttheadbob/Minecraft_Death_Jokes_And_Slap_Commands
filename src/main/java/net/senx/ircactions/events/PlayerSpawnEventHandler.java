@@ -20,6 +20,6 @@ public class PlayerSpawnEventHandler
     @SubscribeEvent
     public static void onPlayerRespawn(PlayerEvent.PlayerRespawnEvent event) {
         ServerPlayer player = (ServerPlayer) event.getEntity();
-        Chat.SendMessage(DadJokes.Player, player, DadJokesManager.GetRandomJoke());
+        Chat.SendMessage(player.createCommandSourceStack(), DadJokesManager.GetRandomJoke());
     }
 }

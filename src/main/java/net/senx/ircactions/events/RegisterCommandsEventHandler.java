@@ -6,10 +6,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.senx.ircactions.commands.DadJokeCommands;
 import net.senx.ircactions.commands.SlapCommand;
 import net.senx.ircactions.commands.SuicideCommand;
-import net.senx.ircactions.ircActions;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
-@Mod.EventBusSubscriber(modid = ircActions.MOD_ID, bus = Bus.FORGE)
+@Mod.EventBusSubscriber
 public final class RegisterCommandsEventHandler
 {
     @SubscribeEvent

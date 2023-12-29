@@ -25,7 +25,7 @@ public class DadJokeCommands
 
     private static int GetDadJoke(CommandSourceStack source)
     {
-        Chat.SendMessage(DadJokes.Player, Objects.requireNonNull(source.getPlayer()), DadJokesManager.GetRandomJoke());
+        Chat.SendMessage(source, DadJokesManager.GetRandomJoke());
         return 1;
     }
 }

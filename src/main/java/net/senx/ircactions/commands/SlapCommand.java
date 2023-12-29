@@ -1,5 +1,6 @@
 package net.senx.ircactions.commands;
 
+import net.senx.ircactions.ircActions;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import net.minecraft.commands.CommandSourceStack;
@@ -64,7 +65,7 @@ public final class SlapCommand
         MutableComponent AttackerMessage = Component.literal(String.format("You slapped the shit out of %s!!", target));
         source.sendFailure(AttackerMessage);
 
-        Chat.BroadcastMessage(source.getServer(), SlapMaster.Player, GetRandomResponse(source, target).getString());
+        Chat.BroadcastMessage(ircActions.server, SlapMaster.Player, GetRandomResponse(source, target).getString());
         return 1;
     }
 
